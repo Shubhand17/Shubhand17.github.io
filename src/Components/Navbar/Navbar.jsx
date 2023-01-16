@@ -22,9 +22,9 @@ export const Navbar = () => {
       bg="#0c0b48"
       zIndex={7}
       borderBottom={navbar ? "1px solid #fe3e57" : "1px solid transparent"}
-      // position="sticky"
-      position="fixed"
-      top="0px"
+      position="sticky"
+      // position="fixed"
+      top="0"
       backgroundImage="./asset/bg_img.jpg"
     >
       <Flex
